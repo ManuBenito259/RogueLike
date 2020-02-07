@@ -580,7 +580,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480685962633264917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: 15, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480685962724203828}
@@ -594,7 +594,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480685962633264917}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -645,6 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6b5c9d431b5477083e097cfb1249e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  templates: {fileID: 0}
 --- !u!1 &480685962681187327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,7 +1715,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480685963616288926}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: -5, z: 0}
+  m_LocalPosition: {x: 0, y: -10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 480685962724203828}
@@ -1728,7 +1729,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480685963616288926}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1779,6 +1780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b82fac02a644178a4fe9f364b162d92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  templates: {fileID: 0}
 --- !u!1 &480685963696713993
 GameObject:
   m_ObjectHideFlags: 0

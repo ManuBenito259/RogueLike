@@ -1780,7 +1780,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2684744546572313004}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5, y: 15, z: 0}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2684744546596220452}
@@ -1794,7 +1794,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2684744546572313004}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1845,6 +1845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6b5c9d431b5477083e097cfb1249e75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  templates: {fileID: 0}
 --- !u!1 &2684744546596220453
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,9 +1968,9 @@ GameObject:
   - component: {fileID: 2684744546742511803}
   - component: {fileID: 2684744546742511801}
   - component: {fileID: 2684744546742511802}
-  - component: {fileID: 2684744546742511800}
+  - component: {fileID: 239437213599606471}
   m_Layer: 0
-  m_Name: Left Spawn
+  m_Name: Right Spawn
   m_TagString: SpawnPoint
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1983,7 +1984,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2684744546742511804}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5, y: 5, z: 0}
+  m_LocalPosition: {x: 10, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2684744546596220452}
@@ -1997,7 +1998,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2684744546742511804}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2036,7 +2037,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2684744546742511800
+--- !u!114 &239437213599606471
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2045,9 +2046,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 2684744546742511804}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ad4aeb9e97a4bdf88e35688ee5f9012, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e37197a0c3843dcb7dc5c80c63d9b39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  templates: {fileID: 0}
 --- !u!1 &2684744546837169269
 GameObject:
   m_ObjectHideFlags: 0
